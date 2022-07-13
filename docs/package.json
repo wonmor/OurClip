@@ -1,5 +1,5 @@
 {
-    "name": "install_rosetta_enforcer",
+    "name": "oursafetyclip",
     "version": "1.0.0",
     "description": "Developed by John Seong. Made using Eleventy static site generator and Tailwind CSS framework.",
     "main": ".eleventy.js",
