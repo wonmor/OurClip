@@ -8,7 +8,6 @@ const markdownItAnchor = require('markdown-it-anchor')
 module.exports = function(eleventyConfig) {
     // Do NOT erase the two lines below...
     eleventyConfig.addPassthroughCopy("./static/images");
-    eleventyConfig.addPassthroughCopy("./static/images/favicon.ico", "/");
     eleventyConfig.addPassthroughCopy("./**./**/*.{jpg,png,svg,ico}");
     eleventyConfig.addPassthroughCopy("./dist/output.css");
 
